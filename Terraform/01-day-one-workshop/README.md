@@ -18,3 +18,4 @@ use IaC Terrafrom to build the following resource besides requirement specificat
     Key: "Owner"   Value: "<type_your_name_here>" <br>
 
   - Preferd to use variables.
+<img src="https://drive.google.com/file/d/1A1irJ2Pg8RtfRs8o-pV2oJI9p8Pp0t4T/view?usp=drive_link" />
