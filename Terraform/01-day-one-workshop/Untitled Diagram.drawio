@@ -1,0 +1,90 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
+  <diagram name="Page-1" id="BxIXWxlkwej7hFQCJ_c7">
+    <mxGraphModel dx="1434" dy="1613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vEZpinUSJC0OhDfDviP9-25" value="VPC" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc2;strokeColor=#8C4FFF;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="1130" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="vEZpinUSJC0OhDfDviP9-26" value="AZ A" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_region;strokeColor=#00A4A6;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=1;" vertex="1" parent="vEZpinUSJC0OhDfDviP9-25">
+          <mxGeometry x="20" y="310" width="540" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="vEZpinUSJC0OhDfDviP9-28" value="Priv subnet&amp;nbsp;" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_subnet;strokeColor=#879196;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#879196;dashed=0;" vertex="1" parent="vEZpinUSJC0OhDfDviP9-26">
+          <mxGeometry x="10" y="200" width="260" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="vEZpinUSJC0OhDfDviP9-29" value="Public Subnet" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_subnet;strokeColor=#879196;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#879196;dashed=0;" vertex="1" parent="vEZpinUSJC0OhDfDviP9-26">
+          <mxGeometry x="280" y="200" width="250" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="vEZpinUSJC0OhDfDviP9-27" value="AZ B" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_region;strokeColor=#00A4A6;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=1;" vertex="1" parent="vEZpinUSJC0OhDfDviP9-25">
+          <mxGeometry x="580" y="310" width="530" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="vEZpinUSJC0OhDfDviP9-30" value="Public Subnet&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_subnet;strokeColor=#879196;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#879196;dashed=0;" vertex="1" parent="vEZpinUSJC0OhDfDviP9-27">
+          <mxGeometry x="10" y="200" width="270" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="vEZpinUSJC0OhDfDviP9-31" value="Priv subnet" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_subnet;strokeColor=#879196;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#879196;dashed=0;" vertex="1" parent="vEZpinUSJC0OhDfDviP9-27">
+          <mxGeometry x="290" y="200" width="230" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="vEZpinUSJC0OhDfDviP9-32" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.router;rotation=-180;" vertex="1" parent="vEZpinUSJC0OhDfDviP9-25">
+          <mxGeometry x="534" y="180" width="62" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="vEZpinUSJC0OhDfDviP9-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vEZpinUSJC0OhDfDviP9-25" source="vEZpinUSJC0OhDfDviP9-29" target="vEZpinUSJC0OhDfDviP9-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="376" />
+              <mxPoint x="540" y="376" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vEZpinUSJC0OhDfDviP9-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vEZpinUSJC0OhDfDviP9-25" source="vEZpinUSJC0OhDfDviP9-30" target="vEZpinUSJC0OhDfDviP9-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="725" y="376" />
+              <mxPoint x="590" y="376" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vEZpinUSJC0OhDfDviP9-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vEZpinUSJC0OhDfDviP9-25" source="vEZpinUSJC0OhDfDviP9-28" target="vEZpinUSJC0OhDfDviP9-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="210" />
+              <mxPoint x="330" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vEZpinUSJC0OhDfDviP9-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vEZpinUSJC0OhDfDviP9-25" source="vEZpinUSJC0OhDfDviP9-31" target="vEZpinUSJC0OhDfDviP9-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="985" y="211" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vEZpinUSJC0OhDfDviP9-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vEZpinUSJC0OhDfDviP9-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="-120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vEZpinUSJC0OhDfDviP9-33" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.internet_gateway;" vertex="1" parent="1">
+          <mxGeometry x="556" y="-10" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="vEZpinUSJC0OhDfDviP9-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vEZpinUSJC0OhDfDviP9-34" target="vEZpinUSJC0OhDfDviP9-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vEZpinUSJC0OhDfDviP9-34" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_globe.svg;" vertex="1" parent="1">
+          <mxGeometry x="550" y="-200" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vEZpinUSJC0OhDfDviP9-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vEZpinUSJC0OhDfDviP9-35" target="vEZpinUSJC0OhDfDviP9-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vEZpinUSJC0OhDfDviP9-35" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#A153A0;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.design.users;" vertex="1" parent="1">
+          <mxGeometry x="285" y="-340" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vEZpinUSJC0OhDfDviP9-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vEZpinUSJC0OhDfDviP9-32" target="vEZpinUSJC0OhDfDviP9-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
